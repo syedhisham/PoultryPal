@@ -1,0 +1,26 @@
+@keyframes bg-wave-1 {
+    0% {
+      transform: translateX(-50%) translateY(-20%);
+    }
+    100% {
+      transform: translateX(50%) translateY(20%);
+    }
+  }
+  
+  @keyframes bg-wave-2 {
+    0% {
+      transform: translateX(50%) translateY(-20%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(20%);
+    }
+  }
+  
+  .animate-bg-wave-1 {
+    animation: bg-wave-1 30s linear infinite;
+  }
+  
+  .animate-bg-wave-2 {
+    animation: bg-wave-2 30s linear infinite;
+  }
+  

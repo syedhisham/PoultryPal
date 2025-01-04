@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-error.log
+
+# Ignore text files
+*.txt
+# Logs
+logs/
+*.log
+
+# Build files
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.vscode/
+*.iml
+.idea/
+
+# Assets
+frontend/src/assets/
+
+# Uploads
+backend/uploads
+
+frontend/.vite
