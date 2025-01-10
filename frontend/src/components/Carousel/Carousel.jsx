@@ -1,6 +1,5 @@
 import { Carousel } from "@material-tailwind/react";
 
-
 const Carousels = () => {
   return (
     <div className="w-full xs:h-[10vh] sm:h-[20vh] md:h-[30vh] xl:h-[50vh] mx-auto">
